@@ -1,0 +1,84 @@
+name: Debug kariyer
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Scan
+        run: |
+          python - <<'PY'
+          import json
+          from playwright.sync_api import sync_playwright
+
+          T = [
+            ("kariyer", "https://kariyerkapisi.gov.tr/isealim"),
+            ("kariyer2", "https://isealimkariyerkapisi.cbiko.gov.tr/"),
+          ]
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+          out = {}
+
+          with sync_playwright() as pw:
+              br = pw.chromium.launch()
+              ctx = br.new_context(user_agent=UA, ignore_https_errors=True, locale="tr-TR")
+              for key, url in T:
+                  d = {"url": url, "req": [], "failed": [], "console": []}
+                  pg = ctx.new_page()
+
+                  def on_req(r, d=d):
+                      if len(d["req"]) < 40 and "google" not in r.url:
+                          d["req"].append(r.method + " " + r.url[:160])
+
+                  def on_fail(r, d=d):
+                      if len(d["failed"]) < 15:
+                          d["failed"].append(r.url[:140] + " | " + str(r.failure))
+
+                  def on_con(m, d=d):
+                      if len(d["console"]) < 10 and m.type in ("error", "warning"):
+                          d["console"].append(m.text[:160])
+
+                  pg.on("request", on_req)
+                  pg.on("requestfailed", on_fail)
+                  pg.on("console", on_con)
+                  try:
+                      r = pg.goto(url, wait_until="domcontentloaded", timeout=45000)
+                      d["status"] = r.status if r else None
+                      pg.wait_for_timeout(8000)
+                      d["title"] = pg.title()
+                      d["info"] = pg.evaluate("""() => ({
+                        rows: document.querySelectorAll('tr').length,
+                        buttons: [...document.querySelectorAll('button,input[type=button],input[type=submit],a.btn')].map(b => (b.innerText || b.value || '').trim()).filter(Boolean).slice(0, 15),
+                        selects: [...document.querySelectorAll('select')].map(s => s.options.length),
+                        iframes: [...document.querySelectorAll('iframe')].map(f => f.src)
+                      })""")
+                      btn = pg.locator("button:text-is('Ara'), button:text-is('Listele'), button:text-is('Filtrele'), input[value='Ara'], input[value='Listele']")
+                      d["btn_count"] = btn.count()
+                      if d["btn_count"] > 0:
+                          btn.first.click(timeout=5000)
+                          pg.wait_for_timeout(8000)
+                      d["rows_text"] = pg.eval_on_selector_all("tr", "els => els.slice(0, 12).map(e => e.innerText.replace(/\\s+/g, ' ').slice(0, 200))")
+                      d["text"] = pg.inner_text("body")[:500]
+                  except Exception as e:
+                      d["error"] = str(e).split("\n")[0][:150]
+                  out[key] = d
+                  pg.close()
+              br.close()
+
+          json.dump(out, open("debug2.json", "w"), ensure_ascii=False, indent=1)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add debug2.json
+          git diff --cached --quiet || (git commit -m "debug2 scan" && git push)
