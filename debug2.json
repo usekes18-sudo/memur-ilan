@@ -1,0 +1,64 @@
+{
+ "kariyer": {
+  "url": "https://kariyerkapisi.gov.tr/isealim",
+  "req": [
+   "GET https://kariyerkapisi.gov.tr/isealim",
+   "GET https://kariyerkapisi.gov.tr/lib/fontawesome/css/all.min.cmhhdwqdyz.css",
+   "GET https://kariyerkapisi.gov.tr/css/fonts/montserrat.je45zfbkar.css",
+   "GET https://kariyerkapisi.gov.tr/css/sb-admin-2.min.144i151rki.css",
+   "GET https://kariyerkapisi.gov.tr/lib/jquery/dist/jquery.min.o1o13a6vjx.js",
+   "GET https://kariyerkapisi.gov.tr/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
+   "GET https://kariyerkapisi.gov.tr/lib/jquery-easing/jquery.easing.min.5n6xhusdby.js",
+   "GET https://kariyerkapisi.gov.tr/js/sb-admin-2.min.yi7fovv7uo.js",
+   "GET https://kariyerkapisi.gov.tr/lib/colorbox/example1/colorbox.t1wv51xbek.css",
+   "GET https://kariyerkapisi.gov.tr/lib/colorbox/jquery.colorbox-min.fwjkep9pfy.js",
+   "GET https://kariyerkapisi.gov.tr/lib/toastr/toastr.min.fuwkiubrsj.css",
+   "GET https://kariyerkapisi.gov.tr/lib/toastr/toastr.min.oosw0sin1v.js",
+   "GET https://kariyerkapisi.gov.tr/js/Infrastructure.ncmia0gyd4.js",
+   "GET https://kariyerkapisi.gov.tr/lib/select2/css/select2.min.17p9pdjmb1.css",
+   "GET https://kariyerkapisi.gov.tr/lib/select2/js/select2.min.z1f3u68ax1.js",
+   "GET https://kariyerkapisi.gov.tr/img/tccbYatayLogo.924ix2w9f3.png",
+   "GET https://kariyerkapisi.gov.tr/img/logokariyerkapisi.so47xbtens.png",
+   "GET https://kariyerkapisi.gov.tr/img/e-devlet_logo.ba0gcob1dk.png",
+   "GET https://kariyerkapisi.gov.tr/img/beyazlogo.paqz8hdqew.png",
+   "GET https://kariyerkapisi.gov.tr/lib/moment/moment.min.z27ubpdown.js",
+   "GET https://kariyerkapisi.gov.tr/js/Index/Main.dit3odhcc9.js",
+   "GET https://kariyerkapisi.gov.tr/css/subset-Montserrat-Regular.woff2",
+   "GET https://kariyerkapisi.gov.tr/css/subset-Montserrat-SemiBold.woff2",
+   "GET https://kariyerkapisi.gov.tr/lib/fontawesome/webfonts/fa-solid-900.woff2",
+   "GET https://kariyerkapisi.gov.tr/lib/fontawesome/webfonts/fa-brands-400.woff2",
+   "GET https://kariyerkapisi.gov.tr/css/subset-Montserrat-Bold.woff2",
+   "POST https://api.kariyerkapisi.gov.tr/api/ilan/GetIseAlimPage"
+  ],
+  "failed": [],
+  "console": [],
+  "status": 200,
+  "title": "Kariyer Kapısı - Anasayfa",
+  "info": {
+   "rows": 0,
+   "buttons": [
+    "Sıkça Sorulan Sorular"
+   ],
+   "selects": [
+    1,
+    1,
+    1
+   ],
+   "iframes": []
+  },
+  "btn_count": 0,
+  "rows_text": [],
+  "text": "e-Devlet ile Giriş Sıkça Sorulan Sorular\n\n\n\n\nKurum Seçiniz\nKurum Seçiniz\nİlan Türünü Seçiniz\nİlan Türünü Seçiniz\nİl Seçiniz\nİl Seçiniz\nKurum/Birim\nAktif İlanlar\nBitiş Tarihi\n\n\n\n\n\n\n\n    \n\n\n© 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n\n\n"
+ },
+ "kariyer2": {
+  "url": "https://isealimkariyerkapisi.cbiko.gov.tr/",
+  "req": [
+   "GET https://isealimkariyerkapisi.cbiko.gov.tr/"
+  ],
+  "failed": [
+   "https://isealimkariyerkapisi.cbiko.gov.tr/ | net::ERR_NAME_NOT_RESOLVED"
+  ],
+  "console": [],
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://isealimkariyerkapisi.cbiko.gov.tr/"
+ }
+}
