@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-20T11:44:02.023100Z",
+ "updated": "2026-11-20T12:05:33.004062Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
    "url": "https://yerelyonetimler.csb.gov.tr/",
    "ok": false,
    "count": 0,
-   "error": "<urlopen error timed out>"
+   "error": "Page.goto: Timeout 45000ms exceeded."
   },
   {
    "name": "Kamu Kurumları İlanları",
    "url": "https://kamuilan.sbb.gov.tr/",
    "ok": false,
    "count": 0,
-   "error": "HTTP Error 403: Forbidden"
+   "error": "ilan bulunamadı"
   },
   {
    "name": "İŞKUR",
-   "url": "https://www.iskur.gov.tr/",
+   "url": "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/",
    "ok": true,
-   "count": 14,
+   "count": 5,
    "error": ""
   },
   {
@@ -32,13 +32,13 @@
   {
    "name": "İlan.gov.tr",
    "url": "https://www.ilan.gov.tr/",
-   "ok": false,
-   "count": 0,
-   "error": "ilan bulunamadı"
+   "ok": true,
+   "count": 8,
+   "error": ""
   },
   {
    "name": "Kariyer Kapısı",
-   "url": "https://kariyerkapisi.gov.tr/",
+   "url": "https://kariyerkapisi.gov.tr/isealim",
    "ok": false,
    "count": 0,
    "error": "ilan bulunamadı"
@@ -47,86 +47,80 @@
  "items": [
   {
    "s": "İŞKUR",
-   "t": "Başvuru İçin Gerekli Belgeler",
-   "u": "https://www.iskur.gov.tr/isveren/kisa-calisma-odenegi/basvuru-icin-gerekli-belgeler/",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İŞKUR",
-   "t": "Kısmi Zamanlı İlanlar",
-   "u": "https://esube.iskur.gov.tr/Istihdam/AcikIsIlanAra.aspx?calismasekli=2",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İŞKUR",
-   "t": "Popüler Kurum Dışı Kamu İşçi Alımı İlanı",
+   "t": "Kurumdışı Kamu İşçi Alım ...",
    "u": "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/",
    "d": "2026-11-20"
   },
   {
    "s": "İŞKUR",
-   "t": "Meslekleri Tanıyalım",
-   "u": "https://esube.iskur.gov.tr/Meslek/MeslekleriTaniyalim.aspx",
+   "t": "Kamu Memur Alım İlanları",
+   "u": "https://www.iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/",
    "d": "2026-11-20"
   },
   {
    "s": "İŞKUR",
-   "t": "04 Kas 2026/6. Dönemi Engelli Ve Eski Hükümlü Proje Başvuruları Başladı!",
+   "t": "2026/6. Dönemi Engelli ve Eski Hükümlü Proje Başvuruları Başladı!",
    "u": "https://www.iskur.gov.tr/duyurular/2026-6-donemi-engelli-ve-eski-hukumlu-proje-basvurulari-basladi/",
    "d": "2026-11-20"
   },
   {
    "s": "İŞKUR",
-   "t": "18 Eki Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alımı İlanı",
+   "t": "Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alımı İlanı",
    "u": "https://www.iskur.gov.tr/duyurular/turkiye-is-kurumu-genel-mudurlugu-sozlesmeli-bilisim-personeli-alimi-ilani-1/",
    "d": "2026-11-20"
   },
   {
    "s": "İŞKUR",
-   "t": "04 Eyl 2026/5. Dönemi Engelli Ve Eski Hükümlü Proje Başvuruları Başladı!",
+   "t": "2026/5. Dönemi Engelli ve Eski Hükümlü Proje Başvuruları Başladı!",
    "u": "https://www.iskur.gov.tr/duyurular/2026-5-donemi-engelli-ve-eski-hukumlu-proje-basvurulari-basladi/",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "26 Ağu Dns Güvenlik Çözümü Alımı Sonuç İlanı",
-   "u": "https://www.iskur.gov.tr/duyurular/dns-guvenlik-cozumu-alimi-sonuc-ilani/",
+   "s": "İlan.gov.tr",
+   "t": "Kamu-Akademik Personel (144)",
+   "u": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "17 Ağu İhale Sonuç Bildirimi - (Sıem (Log Yönetimi) Çözümü Lisansı Alımı İhalesi)",
-   "u": "https://www.iskur.gov.tr/duyurular/ihale-sonuc-bildirimi-siem-log-yonetimi-cozumu-lisansi-alimi-ihalesi/",
+   "s": "İlan.gov.tr",
+   "t": "Tebligat İlanı Nedir ?",
+   "u": "https://www.ilan.gov.tr/bik-tebligat-ilani-nedir",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "14 Ağu Dns Güvenlik Çözümü Alımı İhalesi (Zeyilname No.1 Yayınlanmıştır.)",
-   "u": "https://www.iskur.gov.tr/duyurular/dns-guvenlik-cozumu-alimi-ihalesi-zeyilname-no-1-yayinlanmistir-zeyilname-duyuru-eklerinde-yer-almaktadir/",
+   "s": "İlan.gov.tr",
+   "t": "Personel Alımı İlanı Nedir ?",
+   "u": "https://www.ilan.gov.tr/bik-personel-alimi-ilanlarini-nasil-takip-ederim",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "31 Tem “Sıem (Log Yönetimi) Çözümü Lisansı Alımı”",
-   "u": "https://www.iskur.gov.tr/duyurular/siem-log-yonetimi-cozumu-lisansi-alimi/",
+   "s": "İlan.gov.tr",
+   "t": "Basın İlan Kurumu Mevzuatı",
+   "u": "https://bik.gov.tr/mevzuatsistemi/anayasa/",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "29 Tem Çankaya Hizmet Merkezi Bt Ekipman Alımı İhale Sonuç Bildirimi",
-   "u": "https://www.iskur.gov.tr/duyurular/cankaya-hizmet-merkezi-bt-ekipman-alimi-ihale-sonuc-bildirimi/",
+   "s": "İlan.gov.tr",
+   "t": "Türkiye’nin İlan Portalı ilan.gov.tr",
+   "u": "https://www.ilan.gov.tr/kurumsal-turkiyenin-i%CC%87lan-portali-ilan-gov-tr",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "24 Tem 21 Adet Televizyon Alımı İhalesi Sonuç Bildirimi",
-   "u": "https://www.iskur.gov.tr/duyurular/ihale-sonuc-bildirimi/",
+   "s": "İlan.gov.tr",
+   "t": "Resmi İlan Tarihçesi",
+   "u": "https://www.ilan.gov.tr/kurumsal-resmi-i%CC%87lan-tarihcesi",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "03 Tem İşgücü Piyasasına Geçişin Desteklenmesi Projesi (İsdep2) Kapsamında 21 Adet Televizyon Alımı",
-   "u": "https://www.iskur.gov.tr/duyurular/isgucu-piyasasina-gecisin-desteklenmesi-projesi-isdep2-kapsaminda-21-adet-televizyon-alimi/",
+   "s": "İlan.gov.tr",
+   "t": "Kişisel Veriler (KVKK) Başvurusu",
+   "u": "https://www.ilan.gov.tr/kullanim-kvkk-form",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İlan.gov.tr",
+   "t": "Bilgi Edinme Başvurusu",
+   "u": "https://www.ilan.gov.tr/kullanim-bilgi-edinme",
    "d": "2026-11-20"
   }
  ]
