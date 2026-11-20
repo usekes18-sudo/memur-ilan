@@ -1,0 +1,235 @@
+{
+ "ilan": {
+  "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
+  "xhr": [
+   {
+    "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-E5HGE1NKEK&gtm=45je6bh1v9116736288za20ozb9119647798zd9119647798xf1&_p=1795176989257&gcd=13l3l3l3l1l1&npa=0&_ng=1&dma=0&cid=1625956000.1795176989&fr",
+    "s": 204,
+    "m": "POST"
+   },
+   {
+    "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-E5HGE1NKEK&gtm=45je6bh1v9116736288za20gzb9119647798zd9119647798xf1&_p=1795176989257&gcd=13l3l3l3l1l1&npa=0&_ng=1&dma=0&_eu=AEAAAAQ&ae=a&cid=1625956",
+    "s": 204,
+    "m": "POST"
+   },
+   {
+    "u": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1233969904&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ilan.gov.tr%2Filan%2Fkategori%2F8%2Fkamu-akademik-personel&ul=tr-tr&dt=ilan.gov.tr%20-%20T%C3%B",
+    "s": 200,
+    "m": "POST"
+   },
+   {
+    "u": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.ilan.gov.tr",
+    "s": 200,
+    "m": "GET"
+   },
+   {
+    "u": "https://www.ilan.gov.tr//assets/appconfig.production.json",
+    "s": 200,
+    "m": "GET"
+   },
+   {
+    "u": "https://www.ilan.gov.tr/api/AbpUserConfiguration/GetAll",
+    "s": 200,
+    "m": "GET"
+   },
+   {
+    "u": "https://www.ilan.gov.tr/api/api/services/app/Session/GetCurrentLoginInformations",
+    "s": 200,
+    "m": "GET"
+   },
+   {
+    "u": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=3639439277130005&correlator=188486638363075&output=ldjh&gdfp_req=1&vrg=202611120201&ptt=17&impl=fifs&iu_parts=21663359676%2Cilangovtr_970x250%2C",
+    "s": 200,
+    "m": "GET"
+   },
+   {
+    "u": "https://www.ilan.gov.tr/api/api/services/app/Banner/GetDetailUniversal?bannerPositionEnum=Genel_Ust",
+    "s": 200,
+    "m": "GET"
+   },
+   {
+    "u": "https://www.ilan.gov.tr/api/api/services/app/Banner/GetDetailUniversal?bannerPositionEnum=Popup_Genel",
+    "s": 200,
+    "m": "GET"
+   }
+  ],
+  "snips": [
+   {
+    "u": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.ilan.gov.tr",
+    "b": "[[null,null,\"www.ilan.gov.tr\"],[],[],null,null,null,null,[],null,null,null,[1],null,[]]"
+   },
+   {
+    "u": "https://www.ilan.gov.tr//assets/appconfig.production.json",
+    "b": "{\n  \"remoteServiceBaseUrl\": \"https://www.ilan.gov.tr/api\",\n  \"appBaseUrl\": \"https://www.ilan.gov.tr\",\n  \"cdnBaseUrl\": \"https://medya.ilan.gov.tr/\"\n}\n"
+   },
+   {
+    "u": "https://www.ilan.gov.tr/api/AbpUserConfiguration/GetAll",
+    "b": "{\"result\":{\"multiTenancy\":{\"isEnabled\":false,\"ignoreFeatureCheckForHostUsers\":false,\"sides\":{\"host\":\"Host\",\"tenant\":\"Tenant\"}},\"session\":{\"userId\":null,\"tenantId\":1,\"impersonatorUserId\":null,\"impersonatorTenantId\":1,\"multiTenancySide\":\"Tenant\"},\"localization\":{\"currentCulture\":{\"name\":\"tr\",\"displayName\":\"Turkish\"},\"languages\":[{\"name\":\"tr\",\"display"
+   }
+  ],
+  "status": 200,
+  "title": "ilan.gov.tr - Türkiye'nin İlan Portalı",
+  "text": "Tüm İlanlar  \nKurumsal\nDestek\nİletişim\nÜye OlGiriş Yap\nYardım\n TÜM İLANLAR\n İCRA\n İHALE\n TEBLİGAT\n PERSONEL ALIMI\nAna Sayfa\nKategoriler\nKamu-Akademik Personel (144)\nKamu Personel Alım ve Sınavları (48)\nAkademik Personel Alımları (94)\nYüksek Öğretim ve Eğitim İlanları (1)\nAskeri Personel Alımları (1)",
+  "nlinks": 90,
+  "links": [
+   [
+    "Kamu-Akademik Personel (144)",
+    "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel?currentPage=0"
+   ],
+   [
+    "Kamu Personel Alım ve Sınavları (48)",
+    "https://www.ilan.gov.tr/ilan/kategori/44/kamu-personel-alim-ve-sinavlari?currentPage=0"
+   ],
+   [
+    "Akademik Personel Alımları (94)",
+    "https://www.ilan.gov.tr/ilan/kategori/73/akademik-personel-alimlari?currentPage=0"
+   ],
+   [
+    "Yüksek Öğretim ve Eğitim İlanları (1)",
+    "https://www.ilan.gov.tr/ilan/kategori/45/yuksek-ogretim-ve-egitim-ilanlari?currentPage=0"
+   ],
+   [
+    "Askeri Personel Alımları (1)",
+    "https://www.ilan.gov.tr/ilan/kategori/72/askeri-personel-alimlari?currentPage=0"
+   ],
+   [
+    "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ\nMardin Artuklu Üniversitesi Öğretim Üyesi",
+    "https://www.ilan.gov.tr/ilan/2298532/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-uyesi-alim-ilani"
+   ],
+   [
+    "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ\nMardin Artuklu Üniversitesi Öğretim Görev",
+    "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani"
+   ],
+   [
+    "ADALET BAKANLIĞI ADLİ TIP KURUMU\nAdalet Bakanlığı Adli Tıp Kurumu Başkanlığı Söz",
+    "https://www.ilan.gov.tr/ilan/2298310/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-adalet-bakanligi-adli-tip-kurumu-baskanligi-sozlesmeli-per"
+   ]
+  ]
+ },
+ "iskur": {
+  "url": "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/",
+  "xhr": [],
+  "snips": [],
+  "status": 200,
+  "il_secimi": "ok İstanbul",
+  "title": "Kurumdışı Kamu İşçi Alım İlanları - Türkiye İş Kurumu (İŞKUR)",
+  "text": "Web sitemizde sunulan ve açıkça talep etmiş olduğunuz hizmetler için kesinlikle gerekli, birinci taraf oturum çerezleri ve kalıcı çerezler kullanılmaktadır. Daha fazla bilgi için Çerez Aydınlatma Metni\nKabul Ediyorum Çerez Ayarları Kabul Etmiyorum\n    \nTR EN\nKURUMSAL \nİŞ ARAYAN \nİŞVEREN \nÖZEL İSTİHD",
+  "nlinks": 327,
+  "links": [
+   [
+    "Uluslararası İlişkiler ve Projeler",
+    "https://www.iskur.gov.tr/kurumsal/uluslararasi-iliskiler-ve-projeler/"
+   ],
+   [
+    "Bilgi Güvenliği Yönetim Sistemi",
+    "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/bilgi-guvenligi-yonetim-sistemi/"
+   ],
+   [
+    "Temiz Masa Temiz Ekran Politikası",
+    "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/temiz-masa-temiz-ekran-politikasi/"
+   ],
+   [
+    "Bilgi Güvenliği Farkındalık Dokümanlarımız",
+    "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/bilgi-guvenligi-farkindalik-dokumanlarimiz/"
+   ],
+   [
+    "Zorunlu Arabuluculuk Komisyonu",
+    "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/zorunlu-arabuluculuk-komisyonu/"
+   ],
+   [
+    "Türkiye İş Kurumu Çerez Politikası",
+    "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/turkiye-is-kurumu-cerez-politikasi/"
+   ],
+   [
+    "Engelli ve Eski Hükümlü Projeleri",
+    "https://www.iskur.gov.tr/is-arayan/aktif-isgucu-programlari/engelli-ve-eski-hukumlu-projeleri/"
+   ],
+   [
+    "Çalışanların Mesleki Eğitimi",
+    "https://www.iskur.gov.tr/is-arayan/aktif-isgucu-programlari/calisanlarin-mesleki-egitimi/"
+   ]
+  ]
+ },
+ "kariyer": {
+  "url": "https://kariyerkapisi.gov.tr/isealim",
+  "xhr": [
+   {
+    "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-756JYX7QPN&gtm=45je6bh1v9228915839za208zd9228915839xf1&_p=1795177021951&gcd=13l3l3l3l1l1&npa=0&_ng=1&dma=0&cid=1604567809.1795177022&frm=0&ngs=1&ps",
+    "s": 204,
+    "m": "POST"
+   },
+   {
+    "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-756JYX7QPN&gtm=45je6bh1v9228915839za200zd9228915839xf1&_p=1795177021951&gcd=13l3l3l3l1l1&npa=0&_ng=1&dma=0&_eu=AEAAAAQ&ae=a&cid=1604567809.17951770",
+    "s": 204,
+    "m": "POST"
+   }
+  ],
+  "snips": [],
+  "status": 200,
+  "title": "Kariyer Kapısı - Anasayfa",
+  "text": "e-Devlet ile Giriş Sıkça Sorulan Sorular\n\n\n\n\nKurum Seçiniz\nKurum Seçiniz\nİlan Türünü Seçiniz\nİlan Türünü Seçiniz\nİl Seçiniz\nİl Seçiniz\nKurum/Birim\nAktif İlanlar\nBitiş Tarihi\n\n\n\n\n\n\n\n    \n\n\n© 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n\n\n",
+  "nlinks": 15,
+  "links": []
+ },
+ "resmigazete": {
+  "url": "https://www.resmigazete.gov.tr/",
+  "xhr": [
+   {
+    "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-PZ50KGZS9Z&gtm=45je6bh1v9119063012za20oxf1&_p=1795177032318&gcd=13l3l3l3l1l1&npa=0&_ng=1&dma=0&_eu=AAAI&cid=1201101457.1795177033&frm=0&ngs=1&pscdl",
+    "s": 204,
+    "m": "POST"
+   }
+  ],
+  "snips": [],
+  "status": 200,
+  "title": "T.C. Resmî Gazete",
+  "text": "\t\nT.C. CUMHURBAŞKANLIĞI\nRESMÎ GAZETE\nPDF Görüntüle\n20 Kasım 2026 Tarihli ve 33436 Sayılı Resmî Gazete\n\tKasım 2026\t\nPt\tSa\tÇa\tPe\tCu\tCt\tPz\n26\t27\t28\t29\t30\t31\t1\n2\t3\t4\t5\t6\t7\t8\n9\t10\t11\t12\t13\t14\t15\n16\t17\t18\t19\t20\t21\t22\n23\t24\t25\t26\t27\t28\t29\n30\t1\t2\t3\t4\t5\t6\nResmî Gazete’nin 07.02.1921 tarihinden itibaren yayım",
+  "nlinks": 29,
+  "links": [
+   [
+    "T.C. CUMHURBAŞKANLIĞI\nRESMÎ GAZETE",
+    "https://www.resmigazete.gov.tr/"
+   ],
+   [
+    "–– Belediye Meclisi Çalışma Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmeli",
+    "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-1.htm"
+   ],
+   [
+    "–– Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15055 Sayılı Kararı",
+    "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-2.pdf"
+   ],
+   [
+    "–– Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15056 Sayılı Kararı",
+    "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-3.pdf"
+   ],
+   [
+    "–– Nükleer Düzenleme Kurulunun 17/11/2026 Tarihli ve 2026-49/1-1, 1-2, 1-3, 1-4,",
+    "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-4.pdf"
+   ],
+   [
+    "a - Artırma, Eksiltme ve İhale İlânları",
+    "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-3.htm"
+   ],
+   [
+    "– T.C. Merkez Bankasınca Belirlenen Döviz Kurları ve Devlet İç Borçlanma Senetle",
+    "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-5.htm"
+   ]
+  ]
+ },
+ "kamuilan": {
+  "url": "https://kamuilan.sbb.gov.tr/",
+  "xhr": [],
+  "snips": [],
+  "status": 403,
+  "title": "Access Restricted",
+  "text": "Geographic Restriction\n\nError 403 - Access Denied\n\nAccess from your region is not permitted. This restriction is enforced by the website administrator based on geographic location policies.\n\nIf you believe this is an error, please contact the site administrator.\n\nPowered by altosec.com",
+  "nlinks": 1,
+  "links": []
+ },
+ "yerel": {
+  "url": "https://yerelyonetimler.csb.gov.tr/",
+  "xhr": [],
+  "snips": [],
+  "error": "Page.goto: Timeout 45000ms exceeded."
+ }
+}
