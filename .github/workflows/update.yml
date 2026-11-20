@@ -129,11 +129,43 @@ jobs:
                   status.append({"name": nm, "url": base, "ok": c > 0, "count": c, "error": "" if c else err, "pages": ",".join(pages)})
 
               # 6) Kariyer Kapısı
-              name = "Kariyer Kapısı"; url = "https://kariyerkapisi.gov.tr/isealim"; n = 0; err = "ilan listesi sayfada yüklenmedi"
+              # Liste <a> etiketiyle değil, POST api.kariyerkapisi.gov.tr/api/ilan/GetIseAlimPage yanıtıyla geliyor
+              name = "Kariyer Kapısı"; url = "https://kariyerkapisi.gov.tr/isealim"; n = 0; err = "API yanıtı alınamadı"
+              def lists_in(o):
+                  if isinstance(o, list):
+                      if o and all(isinstance(x, dict) for x in o): yield o
+                      for v in o: yield from lists_in(v)
+                  elif isinstance(o, dict):
+                      for v in o.values(): yield from lists_in(v)
+              def pick(d, pats):
+                  for k, v in d.items():
+                      if isinstance(v, str) and v.strip() and any(p in k.lower() for p in pats):
+                          return re.sub(r"\s+", " ", v).strip()
+                  return ""
+              caught = []
               try:
-                  for t, u in get_links(ctx, url, 8000):
-                      t = re.sub(r"\s+", " ", t).strip()
-                      if len(t) >= 25 and KEY.search(t) and not BAD.search(t) and add(name, t, u): n += 1
+                  pg = ctx.new_page()
+                  def on_resp(r):
+                      if "GetIseAlimPage" in r.url:
+                          try: caught.append(r.json())
+                          except Exception as e: caught.append({"parse_error": str(e)[:100], "status": r.status})
+                  pg.on("response", on_resp)
+                  pg.goto(url, wait_until="domcontentloaded", timeout=45000)
+                  pg.wait_for_timeout(10000)
+                  pg.close()
+                  json.dump(caught, open("debug_kariyer.json", "w"), ensure_ascii=False, indent=1)
+                  if not caught:
+                      err = "GetIseAlimPage isteği hiç gitmedi"
+                  for payload in caught:
+                      cands = sorted(lists_in(payload), key=len, reverse=True)
+                      if not cands:
+                          err = "API yanıtında liste yok (debug_kariyer.json'a bak)"; continue
+                      for row in cands[0]:
+                          title = pick(row, ["ilanbaslik", "baslik", "ilanadi", "title"])
+                          kurum = pick(row, ["kurum", "birim"])
+                          rid = str(row.get("id") or row.get("ilanId") or row.get("ilanID") or len(seen))
+                          t = " — ".join(x for x in (kurum, title) if x) or "Kariyer Kapısı ilanı #" + rid
+                          if add(name, t, url + "#" + rid): n += 1
               except Exception as e:
                   err = str(e).split("\n")[0][:100]
               fin(name, url, n, err, "Siteyi aç: Kariyer Kapısı (otomatik çekilemedi)")
@@ -149,4 +181,5 @@ jobs:
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
           git add data.json
+          git add debug_kariyer.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "update listings" && git push)
