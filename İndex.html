@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Memur İlan Merkezi</title>
+<style>
+:root{--bg:#f5f6fa;--card:#fff;--tx:#14213d;--mut:#5b6478;--ac:#c2410c;--ac2:#1e3a8a;--bd:#e2e5ee;--ok:#15803d}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1420;--card:#192031;--tx:#eef1f8;--mut:#9aa4bb;--ac:#fb923c;--ac2:#93b4ff;--bd:#2a3350;--ok:#4ade80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.4;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.w{max-width:760px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:4px 0}.sub{color:var(--mut);font-size:.85rem;margin:0 0 12px}
+input{width:100%;padding:12px 14px;border:1px solid var(--bd);border-radius:12px;background:var(--card);color:var(--tx);font-size:1rem;margin-bottom:10px}
+.ch{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px}
+.ch button{white-space:nowrap;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:99px;padding:7px 14px;font-size:.85rem;cursor:pointer}
+.ch button.on{background:var(--ac2);color:#fff;border-color:var(--ac2)}
+.i{display:block;background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:12px 14px;margin:10px 0;color:var(--tx);text-decoration:none}
+.i b{display:block;font-size:.98rem;font-weight:600}
+.m{color:var(--mut);font-size:.8rem;margin-top:4px}
+.n{background:var(--ac);color:#fff;border-radius:6px;padding:1px 6px;font-size:.7rem;margin-right:6px}
+.st{color:var(--mut);font-size:.8rem;margin-top:16px}.bad{color:var(--ac)}
+</style>
+</head>
+<body>
+<div class="w">
+<h1>Memur İlan Merkezi</h1>
+<p class="sub" id="up">Yükleniyor…</p>
+<input id="q" type="search" placeholder="Ara: zabıta, işçi, öğretim görevlisi…">
+<div class="ch" id="ch"></div>
+<div id="l"></div>
+<div class="st" id="st"></div>
+</div>
+<script>
+var D=null,src="Hepsi";
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function chips(){var c=document.getElementById("ch");c.innerHTML="";["Hepsi"].concat(D.sources.map(function(s){return s.name})).forEach(function(n){var b=el("button",n==src?"on":"",n);b.onclick=function(){src=n;chips();draw()};c.appendChild(b)})}
+function draw(){var q=document.getElementById("q").value.toLocaleLowerCase("tr"),l=document.getElementById("l");l.innerHTML="";
+var now=Date.now(),k=0;
+D.items.filter(function(i){return(src=="Hepsi"||i.s==src)&&(!q||i.t.toLocaleLowerCase("tr").indexOf(q)>-1)}).sort(function(a,b){return a.d<b.d?1:-1}).forEach(function(i){k++;
+var a=el("a","i");a.href=i.u;a.target="_blank";a.rel="noopener";a.appendChild(el("b","",i.t));
+var m=el("div","m");if(now-new Date(i.d).getTime()<172800000)m.appendChild(el("span","n","Yeni"));m.appendChild(document.createTextNode(i.s+" · "+i.d));a.appendChild(m);l.appendChild(a)});
+if(!k)l.appendChild(el("p","sub","Sonuç yok."))}
+fetch("data.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){D=d;
+document.getElementById("up").textContent="Son güncelleme: "+new Date(d.updated).toLocaleString("tr-TR");
+chips();draw();document.getElementById("q").oninput=draw;
+var bad=d.sources.filter(function(s){return!s.ok});
+var st=document.getElementById("st");st.textContent="Kaynaklar: "+d.sources.map(function(s){return s.name+" ("+s.count+")"}).join(", ")+". ";
+if(bad.length){var sp=el("span","bad","Çekilemeyen: "+bad.map(function(s){return s.name}).join(", ")+".");st.appendChild(sp)}
+}).catch(function(){document.getElementById("up").textContent="Veri henüz yok. GitHub Actions’ı bir kez çalıştırın."});
+</script>
+</body>
+</html>
