@@ -23,49 +23,113 @@ jobs:
           import json, re, datetime
           from playwright.sync_api import sync_playwright
 
-          SRC = [
-            ("Belediye / Yerel Yönetim", ["https://yerelyonetimler.csb.gov.tr/"]),
-            ("Kamu Kurumları İlanları", ["https://kamuilan.sbb.gov.tr/"]),
-            ("İŞKUR", ["https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/", "https://www.iskur.gov.tr/duyurular/"]),
-            ("Resmî Gazete", ["https://www.resmigazete.gov.tr/"]),
-            ("İlan.gov.tr", ["https://www.ilan.gov.tr/"]),
-            ("Kariyer Kapısı", ["https://kariyerkapisi.gov.tr/isealim", "https://kariyerkapisi.gov.tr/"]),
-          ]
-          KEY = re.compile(r"alım|alim|personel|işçi|isci|memur|sözleşmeli|kadro|sınav|başvuru|ilan", re.I)
-          BAD = re.compile(r"ihale|televizyon|dns|siem|ekipman|zeyilname|sonuç|sonuc|belgeler|meslekleri|gizlilik|çerez", re.I)
           UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+          KEY = re.compile(r"alım|alim|personel|işçi|isci|memur|kadro|sözleşmeli|sozlesmeli", re.I)
+          BAD = re.compile(r"ihale|televizyon|dns|siem|ekipman|zeyilname|sonuç|sonuc|belgeler|meslekleri|çerez", re.I)
+          KEYG = re.compile(r"atama|personel|kadro|alım|alim|sınav|öğretim|memur|işçi", re.I)
+          BADG = re.compile(r"ihale|artırma|eksiltme|döviz|enerji piyasası|nükleer", re.I)
 
           try:
               prev = {i["u"]: i["d"] for i in json.load(open("data.json"))["items"]}
           except Exception:
               prev = {}
-
           today = datetime.date.today().isoformat()
           items, status, seen = [], [], set()
+
+          def add(src, t, u):
+              if u in seen: return False
+              seen.add(u)
+              items.append({"s": src, "t": t, "u": u, "d": prev.get(u, today)})
+              return True
+
+          def get_links(ctx, url, wait=6000, timeout=45000):
+              pg = ctx.new_page()
+              try:
+                  pg.goto(url, wait_until="domcontentloaded", timeout=timeout)
+                  pg.wait_for_timeout(wait)
+                  return pg.eval_on_selector_all("a[href]", "els => els.map(e => [(e.innerText||'').trim(), e.href])")
+              finally:
+                  pg.close()
+
+          def fin(name, url, n, err, pin=None):
+              if n == 0 and pin:
+                  add(name, pin, url)
+              status.append({"name": name, "url": url, "ok": n > 0, "count": n, "error": "" if n else err})
 
           with sync_playwright() as pw:
               br = pw.chromium.launch()
               ctx = br.new_context(user_agent=UA, ignore_https_errors=True, locale="tr-TR")
-              for name, urls in SRC:
-                  n = 0; err = ""
-                  for url in urls:
-                      try:
-                          pg = ctx.new_page()
-                          pg.goto(url, wait_until="domcontentloaded", timeout=45000)
-                          pg.wait_for_timeout(6000)
-                          links = pg.eval_on_selector_all("a[href]", "els => els.map(e => [(e.innerText||'').trim(), e.href])")
-                          pg.close()
-                      except Exception as e:
-                          err = str(e).split("\n")[0][:120]
-                          continue
-                      for t, u in links:
+
+              # 1) Belediye / Yerel Yönetim
+              name = "Belediye / Yerel Yönetim"; url = "https://yerelyonetimler.csb.gov.tr/"; n = 0; err = "ilan çekilemedi (site erişimi engelliyor olabilir)"
+              try:
+                  for t, u in get_links(ctx, url, 4000, 20000):
+                      t = re.sub(r"\s+", " ", t).strip()
+                      if len(t) >= 25 and KEY.search(t) and not BAD.search(t) and add(name, t, u): n += 1
+              except Exception as e:
+                  err = str(e).split("\n")[0][:100]
+              fin(name, url, n, err, "Siteyi aç: Belediye / Yerel Yönetim (otomatik çekilemedi)")
+
+              # 2) Kamu Kurumları İlanları
+              name = "Kamu Kurumları İlanları"; url = "https://kamuilan.sbb.gov.tr/"; n = 0; err = "bölge kısıtlaması (403)"
+              try:
+                  for t, u in get_links(ctx, url, 4000, 20000):
+                      t = re.sub(r"\s+", " ", t).strip()
+                      if len(t) >= 25 and KEY.search(t) and not BAD.search(t) and add(name, t, u): n += 1
+              except Exception as e:
+                  err = str(e).split("\n")[0][:100]
+              fin(name, url, n, err, "Siteyi aç: Kamu Kurumları İlanları (otomatik çekilemedi)")
+
+              # 3) İŞKUR
+              name = "İŞKUR"; url = "https://www.iskur.gov.tr/duyurular/"; n = 0; err = "duyuru bulunamadı"
+              add(name, "Kurumdışı Kamu İşçi Alım İlanları (il il listelenir)", "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/")
+              add(name, "Kamu Memur Alım İlanları", "https://www.iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/")
+              for pu in ["https://www.iskur.gov.tr/", url]:
+                  try:
+                      for t, u in get_links(ctx, pu, 4000):
                           t = re.sub(r"\s+", " ", t).strip()
-                          if len(t) < 20 or not u.startswith("http") or u in seen: continue
-                          if not KEY.search(t) or BAD.search(t): continue
-                          seen.add(u); n += 1
-                          items.append({"s": name, "t": t, "u": u, "d": prev.get(u, today)})
-                          if n >= 40: break
-                  status.append({"name": name, "url": urls[0], "ok": n > 0, "count": n, "error": "" if n else (err or "ilan bulunamadı")})
+                          if "/duyurular/" in u and len(t) >= 20 and KEY.search(t) and not BAD.search(t) and add(name, t, u): n += 1
+                  except Exception as e:
+                      err = str(e).split("\n")[0][:100]
+              fin(name, url, n, err)
+
+              # 4) Resmî Gazete
+              name = "Resmî Gazete"; url = "https://www.resmigazete.gov.tr/"; n = 0; err = "uygun başlık bulunamadı"
+              try:
+                  for t, u in get_links(ctx, url, 3000):
+                      t = re.sub(r"\s+", " ", t).strip()
+                      t = re.sub(r"^[–—-]+\s*", "", t)
+                      if len(t) >= 15 and KEYG.search(t) and not BADG.search(t) and add(name, t, u): n += 1
+              except Exception as e:
+                  err = str(e).split("\n")[0][:100]
+              fin(name, url, n, err)
+
+              # 5) İlan.gov.tr
+              name = "İlan.gov.tr"; url = "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel"; n = 0; err = "ilan bulunamadı"
+              for p in range(10):
+                  try:
+                      L = get_links(ctx, url + "?currentPage=" + str(p), 7000)
+                  except Exception as e:
+                      err = str(e).split("\n")[0][:100]; break
+                  new = 0
+                  for t, u in L:
+                      if re.search(r"/ilan/\d+/", u):
+                          lines = [x.strip() for x in t.split("\n") if x.strip()]
+                          if lines and add(name, " — ".join(lines[:2]), u):
+                              new += 1; n += 1
+                  if new == 0: break
+              fin(name, url, n, err, "Siteyi aç: İlan.gov.tr (otomatik çekilemedi)")
+
+              # 6) Kariyer Kapısı
+              name = "Kariyer Kapısı"; url = "https://kariyerkapisi.gov.tr/isealim"; n = 0; err = "ilan listesi sayfada yüklenmedi"
+              try:
+                  for t, u in get_links(ctx, url, 8000):
+                      t = re.sub(r"\s+", " ", t).strip()
+                      if len(t) >= 25 and KEY.search(t) and not BAD.search(t) and add(name, t, u): n += 1
+              except Exception as e:
+                  err = str(e).split("\n")[0][:100]
+              fin(name, url, n, err, "Siteyi aç: Kariyer Kapısı (otomatik çekilemedi)")
+
               br.close()
 
           out = {"updated": datetime.datetime.utcnow().isoformat() + "Z", "sources": status, "items": items}
