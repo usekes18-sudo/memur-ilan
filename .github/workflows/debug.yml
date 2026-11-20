@@ -1,0 +1,85 @@
+name: Debug scan
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Scan
+        run: |
+          python - <<'PY'
+          import json
+          from playwright.sync_api import sync_playwright
+
+          T = [
+            ("ilan", "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel"),
+            ("iskur", "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/"),
+            ("kariyer", "https://kariyerkapisi.gov.tr/isealim"),
+            ("resmigazete", "https://www.resmigazete.gov.tr/"),
+            ("kamuilan", "https://kamuilan.sbb.gov.tr/"),
+            ("yerel", "https://yerelyonetimler.csb.gov.tr/"),
+          ]
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+          out = {}
+
+          with sync_playwright() as pw:
+              br = pw.chromium.launch()
+              ctx = br.new_context(user_agent=UA, ignore_https_errors=True, locale="tr-TR")
+              for key, url in T:
+                  d = {"url": url, "xhr": [], "snips": []}
+                  pg = ctx.new_page()
+
+                  def on_resp(r, d=d):
+                      try:
+                          rt = r.request.resource_type
+                          ct = r.headers.get("content-type", "")
+                          if rt in ("xhr", "fetch") or "json" in ct:
+                              if len(d["xhr"]) < 10:
+                                  d["xhr"].append({"u": r.url[:200], "s": r.status, "m": r.request.method})
+                              if "json" in ct and len(d["snips"]) < 3:
+                                  d["snips"].append({"u": r.url[:120], "b": r.text()[:350]})
+                      except Exception:
+                          pass
+                  pg.on("response", on_resp)
+
+                  try:
+                      r = pg.goto(url, wait_until="domcontentloaded", timeout=45000)
+                      d["status"] = r.status if r else None
+                      pg.wait_for_timeout(8000)
+                      if key == "iskur":
+                          d["il_secimi"] = pg.evaluate("""() => {
+                            const s=[...document.querySelectorAll('select')].find(x=>[...x.options].some(o=>o.text.startsWith('İstanbul')));
+                            if(!s) return 'select yok';
+                            const o=[...s.options].find(o=>o.text.startsWith('İstanbul'));
+                            s.value=o.value; s.dispatchEvent(new Event('change',{bubbles:true}));
+                            return 'ok '+o.value;}""")
+                          pg.wait_for_timeout(6000)
+                      d["title"] = pg.title()
+                      d["text"] = pg.inner_text("body")[:300]
+                      links = pg.eval_on_selector_all("a[href]", "els => els.map(e => [(e.innerText||'').trim().slice(0,80), e.href.slice(0,150)])")
+                      d["nlinks"] = len(links)
+                      d["links"] = [l for l in links if len(l[0]) > 25][:8]
+                  except Exception as e:
+                      d["error"] = str(e).split("\n")[0][:150]
+                  out[key] = d
+                  pg.close()
+              br.close()
+
+          json.dump(out, open("debug.json", "w"), ensure_ascii=False, indent=1)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add debug.json
+          git diff --cached --quiet || (git commit -m "debug scan" && git push)
