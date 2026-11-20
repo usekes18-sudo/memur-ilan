@@ -1,0 +1,133 @@
+{
+ "updated": "2026-11-20T11:44:02.023100Z",
+ "sources": [
+  {
+   "name": "Belediye / Yerel Yönetim",
+   "url": "https://yerelyonetimler.csb.gov.tr/",
+   "ok": false,
+   "count": 0,
+   "error": "<urlopen error timed out>"
+  },
+  {
+   "name": "Kamu Kurumları İlanları",
+   "url": "https://kamuilan.sbb.gov.tr/",
+   "ok": false,
+   "count": 0,
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "name": "İŞKUR",
+   "url": "https://www.iskur.gov.tr/",
+   "ok": true,
+   "count": 14,
+   "error": ""
+  },
+  {
+   "name": "Resmî Gazete",
+   "url": "https://www.resmigazete.gov.tr/",
+   "ok": false,
+   "count": 0,
+   "error": "ilan bulunamadı"
+  },
+  {
+   "name": "İlan.gov.tr",
+   "url": "https://www.ilan.gov.tr/",
+   "ok": false,
+   "count": 0,
+   "error": "ilan bulunamadı"
+  },
+  {
+   "name": "Kariyer Kapısı",
+   "url": "https://kariyerkapisi.gov.tr/",
+   "ok": false,
+   "count": 0,
+   "error": "ilan bulunamadı"
+  }
+ ],
+ "items": [
+  {
+   "s": "İŞKUR",
+   "t": "Başvuru İçin Gerekli Belgeler",
+   "u": "https://www.iskur.gov.tr/isveren/kisa-calisma-odenegi/basvuru-icin-gerekli-belgeler/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "Kısmi Zamanlı İlanlar",
+   "u": "https://esube.iskur.gov.tr/Istihdam/AcikIsIlanAra.aspx?calismasekli=2",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "Popüler Kurum Dışı Kamu İşçi Alımı İlanı",
+   "u": "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "Meslekleri Tanıyalım",
+   "u": "https://esube.iskur.gov.tr/Meslek/MeslekleriTaniyalim.aspx",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "04 Kas 2026/6. Dönemi Engelli Ve Eski Hükümlü Proje Başvuruları Başladı!",
+   "u": "https://www.iskur.gov.tr/duyurular/2026-6-donemi-engelli-ve-eski-hukumlu-proje-basvurulari-basladi/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "18 Eki Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alımı İlanı",
+   "u": "https://www.iskur.gov.tr/duyurular/turkiye-is-kurumu-genel-mudurlugu-sozlesmeli-bilisim-personeli-alimi-ilani-1/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "04 Eyl 2026/5. Dönemi Engelli Ve Eski Hükümlü Proje Başvuruları Başladı!",
+   "u": "https://www.iskur.gov.tr/duyurular/2026-5-donemi-engelli-ve-eski-hukumlu-proje-basvurulari-basladi/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "26 Ağu Dns Güvenlik Çözümü Alımı Sonuç İlanı",
+   "u": "https://www.iskur.gov.tr/duyurular/dns-guvenlik-cozumu-alimi-sonuc-ilani/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "17 Ağu İhale Sonuç Bildirimi - (Sıem (Log Yönetimi) Çözümü Lisansı Alımı İhalesi)",
+   "u": "https://www.iskur.gov.tr/duyurular/ihale-sonuc-bildirimi-siem-log-yonetimi-cozumu-lisansi-alimi-ihalesi/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "14 Ağu Dns Güvenlik Çözümü Alımı İhalesi (Zeyilname No.1 Yayınlanmıştır.)",
+   "u": "https://www.iskur.gov.tr/duyurular/dns-guvenlik-cozumu-alimi-ihalesi-zeyilname-no-1-yayinlanmistir-zeyilname-duyuru-eklerinde-yer-almaktadir/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "31 Tem “Sıem (Log Yönetimi) Çözümü Lisansı Alımı”",
+   "u": "https://www.iskur.gov.tr/duyurular/siem-log-yonetimi-cozumu-lisansi-alimi/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "29 Tem Çankaya Hizmet Merkezi Bt Ekipman Alımı İhale Sonuç Bildirimi",
+   "u": "https://www.iskur.gov.tr/duyurular/cankaya-hizmet-merkezi-bt-ekipman-alimi-ihale-sonuc-bildirimi/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "24 Tem 21 Adet Televizyon Alımı İhalesi Sonuç Bildirimi",
+   "u": "https://www.iskur.gov.tr/duyurular/ihale-sonuc-bildirimi/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "03 Tem İşgücü Piyasasına Geçişin Desteklenmesi Projesi (İsdep2) Kapsamında 21 Adet Televizyon Alımı",
+   "u": "https://www.iskur.gov.tr/duyurular/isgucu-piyasasina-gecisin-desteklenmesi-projesi-isdep2-kapsaminda-21-adet-televizyon-alimi/",
+   "d": "2026-11-20"
+  }
+ ]
+}
