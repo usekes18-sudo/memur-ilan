@@ -94,7 +94,7 @@ jobs:
               fin(name, url, n, err)
 
               # 4) Resmî Gazete
-              name = "Resmî Gazete"; url = "https://www.resmigazete.gov.tr/"; n = 0; err = "uygun başlık bulunamadı"
+              name = "Resmî Gazete"; url = "https://www.resmigazete.gov.tr/"; n = 0; err = "bugün uygun başlık yok"
               try:
                   for t, u in get_links(ctx, url, 3000):
                       t = re.sub(r"\s+", " ", t).strip()
@@ -104,21 +104,29 @@ jobs:
                   err = str(e).split("\n")[0][:100]
               fin(name, url, n, err)
 
-              # 5) İlan.gov.tr
-              name = "İlan.gov.tr"; url = "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel"; n = 0; err = "ilan bulunamadı"
-              for p in range(10):
+              # 5) İlan.gov.tr (üst kategori: kamu + akademik)
+              base = "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel"
+              cnt = {"İlan.gov.tr (Kamu)": 0, "İlan.gov.tr (Akademik)": 0}
+              err = "ilan bulunamadı"; dry = 0; pages = []
+              for p in range(15):
                   try:
-                      L = get_links(ctx, url + "?currentPage=" + str(p), 7000)
+                      L = get_links(ctx, base + "?currentPage=" + str(p), 7000)
                   except Exception as e:
                       err = str(e).split("\n")[0][:100]; break
-                  new = 0
+                  found = new = 0
                   for t, u in L:
                       if re.search(r"/ilan/\d+/", u):
+                          found += 1
                           lines = [x.strip() for x in t.split("\n") if x.strip()]
-                          if lines and add(name, " — ".join(lines[:2]), u):
-                              new += 1; n += 1
-                  if new == 0: break
-              fin(name, url, n, err, "Siteyi aç: İlan.gov.tr (otomatik çekilemedi)")
+                          nm = "İlan.gov.tr (Akademik)" if "akademik-personel-alimlari" in u else "İlan.gov.tr (Kamu)"
+                          if lines and add(nm, " — ".join(lines[:2]), u):
+                              new += 1; cnt[nm] += 1
+                  pages.append(str(new))
+                  if found == 0: break
+                  dry = dry + 1 if new == 0 else 0
+                  if dry >= 2: break
+              for nm, c in cnt.items():
+                  status.append({"name": nm, "url": base, "ok": c > 0, "count": c, "error": "" if c else err, "pages": ",".join(pages)})
 
               # 6) Kariyer Kapısı
               name = "Kariyer Kapısı"; url = "https://kariyerkapisi.gov.tr/isealim"; n = 0; err = "ilan listesi sayfada yüklenmedi"
