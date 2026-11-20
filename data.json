@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-20T12:05:33.004062Z",
+ "updated": "2026-11-20T12:24:33.754456Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
    "url": "https://yerelyonetimler.csb.gov.tr/",
    "ok": false,
    "count": 0,
-   "error": "Page.goto: Timeout 45000ms exceeded."
+   "error": "Page.goto: Timeout 20000ms exceeded."
   },
   {
    "name": "Kamu Kurumları İlanları",
    "url": "https://kamuilan.sbb.gov.tr/",
    "ok": false,
    "count": 0,
-   "error": "ilan bulunamadı"
+   "error": "bölge kısıtlaması (403)"
   },
   {
    "name": "İŞKUR",
-   "url": "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/",
+   "url": "https://www.iskur.gov.tr/duyurular/",
    "ok": true,
-   "count": 5,
+   "count": 1,
    "error": ""
   },
   {
@@ -27,13 +27,13 @@
    "url": "https://www.resmigazete.gov.tr/",
    "ok": false,
    "count": 0,
-   "error": "ilan bulunamadı"
+   "error": "uygun başlık bulunamadı"
   },
   {
    "name": "İlan.gov.tr",
-   "url": "https://www.ilan.gov.tr/",
+   "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 8,
+   "count": 12,
    "error": ""
   },
   {
@@ -41,13 +41,25 @@
    "url": "https://kariyerkapisi.gov.tr/isealim",
    "ok": false,
    "count": 0,
-   "error": "ilan bulunamadı"
+   "error": "ilan listesi sayfada yüklenmedi"
   }
  ],
  "items": [
   {
+   "s": "Belediye / Yerel Yönetim",
+   "t": "Siteyi aç: Belediye / Yerel Yönetim (otomatik çekilemedi)",
+   "u": "https://yerelyonetimler.csb.gov.tr/",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "Kamu Kurumları İlanları",
+   "t": "Siteyi aç: Kamu Kurumları İlanları (otomatik çekilemedi)",
+   "u": "https://kamuilan.sbb.gov.tr/",
+   "d": "2026-11-20"
+  },
+  {
    "s": "İŞKUR",
-   "t": "Kurumdışı Kamu İşçi Alım ...",
+   "t": "Kurumdışı Kamu İşçi Alım İlanları (il il listelenir)",
    "u": "https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/",
    "d": "2026-11-20"
   },
@@ -59,68 +71,86 @@
   },
   {
    "s": "İŞKUR",
-   "t": "2026/6. Dönemi Engelli ve Eski Hükümlü Proje Başvuruları Başladı!",
-   "u": "https://www.iskur.gov.tr/duyurular/2026-6-donemi-engelli-ve-eski-hukumlu-proje-basvurulari-basladi/",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İŞKUR",
-   "t": "Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alımı İlanı",
+   "t": "18 EKİ Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alımı İlanı",
    "u": "https://www.iskur.gov.tr/duyurular/turkiye-is-kurumu-genel-mudurlugu-sozlesmeli-bilisim-personeli-alimi-ilani-1/",
    "d": "2026-11-20"
   },
   {
-   "s": "İŞKUR",
-   "t": "2026/5. Dönemi Engelli ve Eski Hükümlü Proje Başvuruları Başladı!",
-   "u": "https://www.iskur.gov.tr/duyurular/2026-5-donemi-engelli-ve-eski-hukumlu-proje-basvurulari-basladi/",
+   "s": "İlan.gov.tr",
+   "t": "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ — Mardin Artuklu Üniversitesi Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298532/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Kamu-Akademik Personel (144)",
-   "u": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
+   "t": "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ — Mardin Artuklu Üniversitesi Öğretim Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Tebligat İlanı Nedir ?",
-   "u": "https://www.ilan.gov.tr/bik-tebligat-ilani-nedir",
+   "t": "ADALET BAKANLIĞI ADLİ TIP KURUMU — Adalet Bakanlığı Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298310/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-adalet-bakanligi-adli-tip-kurumu-baskanligi-sozlesmeli-personel-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Personel Alımı İlanı Nedir ?",
-   "u": "https://www.ilan.gov.tr/bik-personel-alimi-ilanlarini-nasil-takip-ederim",
+   "t": "İSTANBUL ÜNİVERSİTESİ - CERRAHPAŞA — İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298278/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Basın İlan Kurumu Mevzuatı",
-   "u": "https://bik.gov.tr/mevzuatsistemi/anayasa/",
+   "t": "NECMETTİN ERBAKAN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Necmettin Erbakan Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298217/kamu-akademik-personel-akademik-personel-alimlari-necmettin-erbakan-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Türkiye’nin İlan Portalı ilan.gov.tr",
-   "u": "https://www.ilan.gov.tr/kurumsal-turkiyenin-i%CC%87lan-portali-ilan-gov-tr",
+   "t": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA REKTÖRLÜĞÜ — İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298201/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-elemani-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Resmi İlan Tarihçesi",
-   "u": "https://www.ilan.gov.tr/kurumsal-resmi-i%CC%87lan-tarihcesi",
+   "t": "BEYKOZ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Beykoz Üniversitesi Rektörlüğü Öğretim Üyesi/ Öğretim Görevlisi/ Araştırma Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298200/kamu-akademik-personel-akademik-personel-alimlari-beykoz-universitesi-rektorlugu-ogretim-uyesi-ogretim-gorevlisi-arastirma-gorevlisi-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Kişisel Veriler (KVKK) Başvurusu",
-   "u": "https://www.ilan.gov.tr/kullanim-kvkk-form",
+   "t": "HASAN KALYONCU ÜNİVERSİTESİ REKTÖRLÜĞÜ — Hasan Kalyoncu Üniversitesi Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298169/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
    "s": "İlan.gov.tr",
-   "t": "Bilgi Edinme Başvurusu",
-   "u": "https://www.ilan.gov.tr/kullanim-bilgi-edinme",
+   "t": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bartın Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298163/kamu-akademik-personel-akademik-personel-alimlari-bartin-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İlan.gov.tr",
+   "t": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bartın Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298161/kamu-akademik-personel-akademik-personel-alimlari-bartin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İlan.gov.tr",
+   "t": "BALIKESİR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Balıkesir Üniversitesi Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298155/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-elemani-alim-ilani",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "İlan.gov.tr",
+   "t": "BALIKESİR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Balıkesir Üniversitesi Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2298129/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-20"
+  },
+  {
+   "s": "Kariyer Kapısı",
+   "t": "Siteyi aç: Kariyer Kapısı (otomatik çekilemedi)",
+   "u": "https://kariyerkapisi.gov.tr/isealim",
    "d": "2026-11-20"
   }
  ]
