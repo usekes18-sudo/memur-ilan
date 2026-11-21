@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:56:57.558900Z",
+ "updated": "2026-11-21T09:42:45.792886Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -19,7 +19,7 @@
    "name": "İŞKUR",
    "url": "https://www.iskur.gov.tr/duyurular/",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": ""
   },
   {
@@ -77,6 +77,12 @@
    "t": "Kamu Memur Alım İlanları",
    "u": "https://www.iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/",
    "d": "2026-11-20"
+  },
+  {
+   "s": "İŞKUR",
+   "t": "21 KAS Sözleşmeli Bilişim Personeli Sözlü/Uygulamalı Sınava Girmeye Hak Kazananlar Hakkında Duyuru",
+   "u": "https://www.iskur.gov.tr/duyurular/sozlesmeli-bilisim-personeli-sozlu-uygulamali-sinava-girmeye-hak-kazananlar-hakkinda-duyuru-1/",
+   "d": "2026-11-21"
   },
   {
    "s": "İŞKUR",
