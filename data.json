@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:36:25.440917Z",
+ "updated": "2026-11-21T21:33:16.079416Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -26,7 +26,7 @@
    "name": "Resmî Gazete",
    "url": "https://www.resmigazete.gov.tr/",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "error": ""
   },
   {
@@ -35,15 +35,15 @@
    "ok": true,
    "count": 45,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,4,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,2,0,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 79,
+   "count": 77,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,4,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,2,0,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -92,15 +92,9 @@
   },
   {
    "s": "Resmî Gazete",
-   "t": "Türkiye Cumhuriyeti Yükseköğretim Kurulu Başkanlığı ile Suriye Arap Cumhuriyeti Yükseköğretim ve Bilimsel Araştırma Bakanlığı Arasında Gaziantep Üniversitesi ile Sağlık Bilimleri Üniversitesinin Suriye’deki Akademik Birimlerinin Faaliyetlerine İlişkin Mutabakat Zaptının Onaylanması Hakkında Karar (Karar Sayısı: 12015)",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121-4.pdf",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "Resmî Gazete",
-   "t": "Cumhurbaşkanlığı Tarafından Yapılan Atamalar Hakkında Kararlar (Karar: 2026/389, 390, 391, 392, 393)",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121-6.pdf",
-   "d": "2026-11-20"
+   "t": "Hatay Mustafa Kemal Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliği",
+   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261122-2.htm",
+   "d": "2026-11-21"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
@@ -692,12 +686,6 @@
   },
   {
    "s": "İlan.gov.tr (Akademik)",
-   "t": "DİCLE ÜNİVERSİTESİ REKTÖRLÜĞÜ — İptal İlanı (Dicle Üniversitesi Rektörlüğü)",
-   "u": "https://www.ilan.gov.tr/ilan/2283080/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-dicle-universitesi-rektorlugu-",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
    "t": "HASAN KALYONCU ÜNİVERSİTESİ REKTÖRLÜĞÜ — Hasan Kalyoncu Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2281218/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
    "d": "2026-11-20"
@@ -712,12 +700,6 @@
    "s": "İlan.gov.tr (Kamu)",
    "t": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI — Sosyal Güvenlik Kurumu Başkanlığı Sosyal Güvenlik Denetmen Yardımcısı Sınav İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2280968/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sosyal-guvenlik-kurumu-baskanligi-sosyal-guvenlik-denetmen-yardimcisi-sinav-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "AKSARAY ÜNİVERSİTESİ REKTÖRLÜĞÜ — Aksaray Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2280929/kamu-akademik-personel-akademik-personel-alimlari-aksaray-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
