@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:37:41.680275Z",
+ "updated": "2026-11-22T21:37:00.755151Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 45,
+   "count": 42,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,2,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,9,0,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 77,
+   "count": 75,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,2,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,9,0,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -92,9 +92,9 @@
   },
   {
    "s": "Resmî Gazete",
-   "t": "Hatay Mustafa Kemal Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliği",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261122-2.htm",
-   "d": "2026-11-21"
+   "t": "Biruni Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261123-2.htm",
+   "d": "2026-11-22"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
@@ -286,12 +286,6 @@
    "s": "İlan.gov.tr (Akademik)",
    "t": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bilecik Şeyh Edebali Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2295214/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "MUŞ ALPARSLAN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Muş Alparslan Üniversitesi Rektörlüğünden İptal İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2295200/kamu-akademik-personel-akademik-personel-alimlari-mus-alparslan-universitesi-rektorlugunden-iptal-ilani",
    "d": "2026-11-20"
   },
   {
@@ -613,12 +607,6 @@
    "d": "2026-11-20"
   },
   {
-   "s": "İlan.gov.tr (Kamu)",
-   "t": "TBMM KAMU DENETÇİLİĞİ KURUMU (OMBUDSMANLIK) — Kamu Denetçiliği Uzman Yardımcılığı Giriş Sınavı Duyurusu",
-   "u": "https://www.ilan.gov.tr/ilan/2279637/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kamu-denetciligi-uzman-yardimciligi-giris-sinavi-duyurusu",
-   "d": "2026-11-20"
-  },
-  {
    "s": "İlan.gov.tr (Akademik)",
    "t": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ REKTÖRLÜĞÜ — İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Öğretim Elemanı Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2283151/kamu-akademik-personel-akademik-personel-alimlari-izmir%C2%A0yuksek%C2%A0teknoloji%C2%A0enstitusu%C2%A0rektorlugunden-ogretim-elemani-alim-ilani",
@@ -694,12 +682,6 @@
    "s": "İlan.gov.tr (Akademik)",
    "t": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ REKTÖRLÜĞÜ — AnkaraSosyal Bilimler Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2281103/kamu-akademik-personel-akademik-personel-alimlari-ankarasosyal-bilimler-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Kamu)",
-   "t": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI — Sosyal Güvenlik Kurumu Başkanlığı Sosyal Güvenlik Denetmen Yardımcısı Sınav İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2280968/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sosyal-guvenlik-kurumu-baskanligi-sosyal-guvenlik-denetmen-yardimcisi-sinav-ilani",
    "d": "2026-11-20"
   },
   {
@@ -781,12 +763,6 @@
    "d": "2026-11-20"
   },
   {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "MUŞ ALPARSLAN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Muş Alparslan Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2269832/kamu-akademik-personel-akademik-personel-alimlari-mus-alparslan-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
    "s": "İlan.gov.tr (Kamu)",
    "t": "AKHİSAR BELEDİYE BAŞKANLIĞI — Manisa İli Akhisar Belediye Başkanlığından Memur Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2266555/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-manisa%C2%A0ili%C2%A0akhisar%C2%A0belediye%C2%A0baskanligindan-memur-alim-ilani",
@@ -808,12 +784,6 @@
    "s": "İlan.gov.tr (Kamu)",
    "t": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI — Ankara Büyükşehir Belediye Başkanlığı Müfettiş Yardımcısı Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2257554/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-buyuksehir-belediye-baskanligi-mufettis-yardimcisi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Kamu)",
-   "t": "İSTANBUL KALKINMA AJANSI GENEL SEKRETERLİĞİ — İstanbul Kalkınma Ajansı Personel Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2252974/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-istanbul-kalkinma-ajansi-personel-alim-ilani",
    "d": "2026-11-20"
   },
   {
