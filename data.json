@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:16:58.612499Z",
+ "updated": "2026-11-23T10:11:53.297612Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 46,
+   "count": 47,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,6,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,11,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 80,
+   "count": 84,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,6,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,11,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -95,6 +95,36 @@
    "t": "Biruni Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261123-2.htm",
    "d": "2026-11-22"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "TARSUS ÜNİVERSİTESİ REKTÖRLÜĞÜ — Tarsus Üniversitesi Rektörlüğü Öğretim Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299827/kamu-akademik-personel-akademik-personel-alimlari-tarsus-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "İÇİŞLERİ BAKANLIĞI — İçişleri Bakanlığı 1170 Sözleşmeli Personel Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299814/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-1170-sozlesmeli-personel-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "ÖZYEĞİN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Özyeğin Üniversitesi Rektörlüğü Öğretim Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "ÖZYEĞİN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Özyeğin Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299718/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "T.C. ANTALYA BELEK ÜNİVERSİTESİ — Antalya Belek Üniversitesi Öğretim Üyesi Dışındaki Kadrolara Personel Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani",
+   "d": "2026-11-23"
   },
   {
    "s": "İlan.gov.tr (Kamu)",
