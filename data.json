@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:52:35.550476Z",
+ "updated": "2026-11-23T21:46:32.758216Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 47,
+   "count": 46,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,11,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,7,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 84,
+   "count": 69,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,11,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,7,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -92,9 +92,9 @@
   },
   {
    "s": "Resmî Gazete",
-   "t": "Biruni Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261123-2.htm",
-   "d": "2026-11-22"
+   "t": "Recep Tayyip Erdoğan Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124-1.htm",
+   "d": "2026-11-23"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
@@ -310,12 +310,6 @@
    "s": "İlan.gov.tr (Akademik)",
    "t": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bilecik Şeyh Edebali Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2296737/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ — İptal İlanı (Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü)",
-   "u": "https://www.ilan.gov.tr/ilan/2296729/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-kahramanmaras-sutcu-imam-universitesi-rektorlugu-",
    "d": "2026-11-20"
   },
   {
@@ -655,69 +649,9 @@
    "d": "2026-11-20"
   },
   {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "TED ÜNİVERSİTESİ REKTÖRLÜĞÜ — Ted Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283277/kamu-akademik-personel-akademik-personel-alimlari-ted-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Sağlık Bilimleri Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283213/kamu-akademik-personel-akademik-personel-alimlari-saglik%C2%A0bilimleri%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
    "s": "İlan.gov.tr (Kamu)",
    "t": "ULA BELEDİYE BAŞKANLIĞI — Ula Belediye Başkanlığı Zabıta Memuru Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2283208/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ula-belediye-baskanligi-zabita-memuru-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ REKTÖRLÜĞÜ — Karamanoğlu Mehmetbey Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283207/kamu-akademik-personel-akademik-personel-alimlari-karamanoglu%C2%A0mehmetbey%C2%A0universitesi%C2%A0rektorlugunden-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "KARADENİZ TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ — Karadeniz Teknik Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283160/kamu-akademik-personel-akademik-personel-alimlari-karadeniz%C2%A0teknik%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ REKTÖRLÜĞÜ — İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283152/kamu-akademik-personel-akademik-personel-alimlari-izmir%C2%A0yuksek%C2%A0teknoloji%C2%A0enstitusu%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ REKTÖRLÜĞÜ — İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283151/kamu-akademik-personel-akademik-personel-alimlari-izmir%C2%A0yuksek%C2%A0teknoloji%C2%A0enstitusu%C2%A0rektorlugunden-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "KOCAELİ SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Kocaeli Sağlık ve Teknoloji Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283147/kamu-akademik-personel-akademik-personel-alimlari-kocaeli-saglik-ve-teknoloji-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "BEZMİÂLEM VAKIF ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283118/kamu-akademik-personel-akademik-personel-alimlari-bezmialem%C2%A0vakif%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "BEZMİÂLEM VAKIF ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283112/kamu-akademik-personel-akademik-personel-alimlari-bezmialem%C2%A0vakif%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Ankara Müzik ve Güzel Sanatlar Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283108/kamu-akademik-personel-akademik-personel-alimlari-ankara%C2%A0muzik%C2%A0ve%C2%A0guzel%C2%A0sanatlar%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
@@ -727,21 +661,9 @@
    "d": "2026-11-20"
   },
   {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ — Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283103/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras%C2%A0sutcu%C2%A0imam%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
    "s": "İlan.gov.tr (Kamu)",
    "t": "TANOBA BELEDİYE BAŞKANLIĞI — Tanoba Belediye Başkanlığı Personel Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2283099/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tanoba-belediye-baskanligi-personel-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ — Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2283097/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras%C2%A0sutcu%C2%A0imam%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
@@ -754,18 +676,6 @@
    "s": "İlan.gov.tr (Kamu)",
    "t": "AKSEKİ BELEDİYE BAŞKANLIĞI — Akseki Belediye Başkanlığı Memur Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2283081/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-akseki-belediye-baskanligi-memur-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "HASAN KALYONCU ÜNİVERSİTESİ REKTÖRLÜĞÜ — Hasan Kalyoncu Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2281218/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ REKTÖRLÜĞÜ — AnkaraSosyal Bilimler Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2281103/kamu-akademik-personel-akademik-personel-alimlari-ankarasosyal-bilimler-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "d": "2026-11-20"
   },
   {
@@ -820,12 +730,6 @@
    "s": "İlan.gov.tr (Akademik)",
    "t": "BOĞAZİÇİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Boğaziçi Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2272784/kamu-akademik-personel-akademik-personel-alimlari-bogazici%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Kamu)",
-   "t": "NÜKLEER DÜZENLEME KURUMU — Nükleer Düzenleme Kurumu Sözleşmeli Bilişim Personeli Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2272779/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-nukleer-duzenleme-kurumu-sozlesmeli-bilisim-personeli-alim-ilani",
    "d": "2026-11-20"
   },
   {
