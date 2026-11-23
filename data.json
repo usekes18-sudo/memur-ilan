@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T03:56:06.932573Z",
+ "updated": "2026-11-23T07:16:58.612499Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 42,
+   "count": 46,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,9,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,6,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 75,
+   "count": 80,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,9,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,6,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -95,6 +95,60 @@
    "t": "Biruni Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261123-2.htm",
    "d": "2026-11-22"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ REKTÖRLÜĞÜ — Ankara Yıldırım Beyazıt Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299686/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-yildirim-beyazit-universitesi-sozlesmeli-bilisim-personeli-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "YOZGAT BOZOK ÜNİVERSİTESİ REKTÖRLÜĞÜ — Yozgat Bozok Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299680/kamu-akademik-personel-akademik-personel-alimlari-yozgat%C2%A0bozok%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "YAŞAR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Yaşar Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299655/kamu-akademik-personel-akademik-personel-alimlari-yasar%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "(TÜRKAK) TÜRK AKREDİTASYON KURUMU BAŞKANLIĞI — Türk Akreditasyon Kurumundan Sözleşmeli Koruma ve Güvenlik Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299654/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk%C2%A0akreditasyon%C2%A0kurumundan-sozlesmeli-koruma-ve-guvenlik-gorevlisi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Kütahya Dumlupınar Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299649/kamu-akademik-personel-akademik-personel-alimlari-kutahya-dumlupinar-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "JANDARMA VE SAHİL GÜVENLİK AKADEMİSİ BAŞKANLIĞI — İçişleri Bakanlığı Jandarma ve Sahil Güvenlik Akademisi Başkanlığından Uzman Erbaş Temin İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299648/kamu-akademik-personel-askeri-personel-alimlari-icisleri%C2%A0bakanligi%C2%A0jandarma%C2%A0ve%C2%A0sahil%C2%A0guvenlik%C2%A0akademisi%C2%A0baskanligindan-uzman-erbas-temin-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ — Düzce Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299646/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ — Düzce Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299635/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "ONDOKUZ MAYIS ÜNİVERSİTESİ REKTÖRLÜĞÜ — Ondokuz Mayıs Üniversitesi Rektörlüğü Sürekli İşçi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2299634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ondokuz-mayis-universitesi-rektorlugu-surekli-isci-alim-ilani",
+   "d": "2026-11-23"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
