@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:51:42.318413Z",
+ "updated": "2026-11-24T21:50:15.434019Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 47,
+   "count": 46,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,8,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 74,
+   "count": 70,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,8,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -92,9 +92,9 @@
   },
   {
    "s": "Resmî Gazete",
-   "t": "Recep Tayyip Erdoğan Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124-1.htm",
-   "d": "2026-11-23"
+   "t": "Cumhurbaşkanlığı Tarafından Yapılan Atamalar Hakkında Kararlar (Karar: 2026/398, 399)",
+   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125-3.pdf",
+   "d": "2026-11-24"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
@@ -631,18 +631,6 @@
    "d": "2026-11-20"
   },
   {
-   "s": "İlan.gov.tr (Kamu)",
-   "t": "ASARCIK BELEDİYE BAŞKANLIĞI — Samsun İli Asarcık Belediye Başkanlığı (İptal İlanı)",
-   "u": "https://www.ilan.gov.tr/ilan/2285089/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-samsun-ili-asarcik-belediye-baskanligi-iptal-ilani-",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "BAHÇEŞEHİR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Bahçeşehir Üniversitesi Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2285086/kamu-akademik-personel-akademik-personel-alimlari-bahcesehir-universitesi-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
    "s": "İlan.gov.tr (Akademik)",
    "t": "MUNZUR ÜNİVERSİTESİ — Munzur Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2285031/kamu-akademik-personel-akademik-personel-alimlari-munzur%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
@@ -658,24 +646,6 @@
    "s": "İlan.gov.tr (Kamu)",
    "t": "SAYIŞTAY BAŞKANLIĞI — Sayıştay Başkanlığından Sözleşmeli Çözümleyici ve Programcı Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2285010/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sayistay%C2%A0baskanligindan-sozlesmeli-cozumleyici-ve-programci-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İZMİR BAKIRÇAY ÜNİVERSİTESİ REKTÖRLÜĞÜ — İzmir Bakırçay Üniversitesi (İptal İlanı)",
-   "u": "https://www.ilan.gov.tr/ilan/2285009/kamu-akademik-personel-akademik-personel-alimlari-izmir-bakircay-universitesi-iptal-ilani-",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "SABANCI ÜNİVERSİTESİ REKTÖRLÜĞÜ — Sabancı Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2284965/kamu-akademik-personel-akademik-personel-alimlari-sabanci-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2284939/kamu-akademik-personel-akademik-personel-alimlari-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "d": "2026-11-20"
   },
   {
