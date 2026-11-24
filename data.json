@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:00:52.654050Z",
+ "updated": "2026-11-24T10:01:21.566057Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -35,15 +35,15 @@
    "ok": true,
    "count": 47,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,11,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 72,
+   "count": 74,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,11,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -95,6 +95,18 @@
    "t": "Recep Tayyip Erdoğan Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124-1.htm",
    "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ — Marmara Üniversitesi Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-24"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ — Marmara Üniversitesi Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani",
+   "d": "2026-11-24"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
