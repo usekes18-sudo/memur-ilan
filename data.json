@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T03:53:19.346053Z",
+ "updated": "2026-11-24T07:00:52.654050Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 46,
+   "count": 47,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,7,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,11,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 69,
+   "count": 72,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,7,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,11,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -95,6 +95,30 @@
    "t": "Recep Tayyip Erdoğan Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124-1.htm",
    "d": "2026-11-23"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ REKTÖRLÜĞÜ — Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2301174/kamu-akademik-personel-akademik-personel-alimlari-canakkale%C2%A0onsekiz%C2%A0mart%C2%A0universitesi%C2%A0rektorlugunden-ogretim-elemani-alim-ilani",
+   "d": "2026-11-24"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ REKTÖRLÜĞÜ — Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2301171/kamu-akademik-personel-akademik-personel-alimlari-canakkale%C2%A0onsekiz%C2%A0mart%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-24"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "KÜLTÜR VE TURİZM BAKANLIĞI — Kültür ve Turizm Bakanlığı Kültür ve Turizm Uzman Yardımcılığı Yarışma Sınav İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2301151/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-ilani",
+   "d": "2026-11-24"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Nişantaşı Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2301150/kamu-akademik-personel-akademik-personel-alimlari-istanbul-nisantasi-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "d": "2026-11-24"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
