@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:55:34.387691Z",
+ "updated": "2026-11-25T07:03:12.439418Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 46,
+   "count": 47,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,8,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 70,
+   "count": 73,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,8,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -95,6 +95,30 @@
    "t": "Cumhurbaşkanlığı Tarafından Yapılan Atamalar Hakkında Kararlar (Karar: 2026/398, 399)",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125-3.pdf",
    "d": "2026-11-24"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "REKABET KURUMU BAŞKANLIĞI — Rekabet Kurumu Başkanlığından Uzman Yardımcısı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani",
+   "d": "2026-11-25"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "BİRUNİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — İptal İlanı (Biruni Üniversitesi Rektörlüğü)",
+   "u": "https://www.ilan.gov.tr/ilan/2302677/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-biruni-universitesi-rektorlugu-",
+   "d": "2026-11-25"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "ÇAĞ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Çağ Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2302666/kamu-akademik-personel-akademik-personel-alimlari-cag%C2%A0universitesi%C2%A0rektorlugunden-ogretim-elemani-alim-ilani",
+   "d": "2026-11-25"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "MANİSA CELAL BAYAR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Manisa Celal Bayar Üniversitesi Rektörlüğü Akademik Personel Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani",
+   "d": "2026-11-25"
   },
   {
    "s": "İlan.gov.tr (Akademik)",
