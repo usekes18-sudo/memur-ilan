@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:44:51.864023Z",
+ "updated": "2026-11-25T21:52:08.115956Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 47,
+   "count": 46,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,4,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 73,
+   "count": 66,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,4,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -92,9 +92,9 @@
   },
   {
    "s": "Resmî Gazete",
-   "t": "Cumhurbaşkanlığı Tarafından Yapılan Atamalar Hakkında Kararlar (Karar: 2026/398, 399)",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125-3.pdf",
-   "d": "2026-11-24"
+   "t": "Mustafa Kemal Üniversitesi Yabancı Diller Eğitim-Öğretimi Araştırma ve Uygulama Merkezi (YADİM) Yönetmeliğinin Yürürlükten Kaldırılmasına Dair Yönetmelik",
+   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126-3.htm",
+   "d": "2026-11-25"
   },
   {
    "s": "İlan.gov.tr (Kamu)",
@@ -637,48 +637,6 @@
    "d": "2026-11-20"
   },
   {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İSTANBUL BEYKENT ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Beykent Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2286638/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İSTANBUL RUMELİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Rumeli Üniversitesi Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2286637/kamu-akademik-personel-akademik-personel-alimlari-istanbul-rumeli-universitesi-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "ŞIRNAK ÜNİVERSİTESİ REKTÖRLÜĞÜ — Şırnak Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2286636/kamu-akademik-personel-akademik-personel-alimlari-sirnak%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "MUNZUR ÜNİVERSİTESİ — Munzur Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2285031/kamu-akademik-personel-akademik-personel-alimlari-munzur%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "MUNZUR ÜNİVERSİTESİ — Munzur Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2285027/kamu-akademik-personel-akademik-personel-alimlari-munzur%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Kamu)",
-   "t": "SAYIŞTAY BAŞKANLIĞI — Sayıştay Başkanlığından Sözleşmeli Çözümleyici ve Programcı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2285010/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sayistay%C2%A0baskanligindan-sozlesmeli-cozumleyici-ve-programci-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İSTANBUL BİLGİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Bilgi Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2284932/kamu-akademik-personel-akademik-personel-alimlari-istanbul-bilgi-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
    "s": "İlan.gov.tr (Kamu)",
    "t": "ULA BELEDİYE BAŞKANLIĞI — Ula Belediye Başkanlığı Zabıta Memuru Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2283208/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ula-belediye-baskanligi-zabita-memuru-alim-ilani",
@@ -754,12 +712,6 @@
    "s": "İlan.gov.tr (Kamu)",
    "t": "DOĞU KARADENİZ KALKINMA AJANSI GENEL SEKRETERLİĞİ (DOKA) — Doğu Karadeniz Kalkınma Ajansından (DOKA) Personel Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2274511/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dogu%C2%A0karadeniz%C2%A0kalkinma%C2%A0ajansindan%C2%A0-doka-personel-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "BOĞAZİÇİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Boğaziçi Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2272784/kamu-akademik-personel-akademik-personel-alimlari-bogazici%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
    "d": "2026-11-20"
   },
   {
