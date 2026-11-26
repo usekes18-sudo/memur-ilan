@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:52:58.581740Z",
+ "updated": "2026-11-26T07:02:51.892507Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 46,
+   "count": 49,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,4,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,7,0,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 66,
+   "count": 78,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,4,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,7,0,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -95,6 +95,96 @@
    "t": "Mustafa Kemal Üniversitesi Yabancı Diller Eğitim-Öğretimi Araştırma ve Uygulama Merkezi (YADİM) Yönetmeliğinin Yürürlükten Kaldırılmasına Dair Yönetmelik",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126-3.htm",
    "d": "2026-11-25"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "TÜRKİYE SU ENSTİTÜSÜ — Tarım ve Orman Bakanlığı Türkiye Su Enstitüsü Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304234/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tarim-ve-orman-bakanligi-turkiye-su-enstitusu-baskanligi-sozlesmeli-personel-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "SAKARYA ÜNİVERSİTESİ REKTÖRLÜĞÜ — İptal İlanı (Sakarya Üniversitesi Rektörlüğü)",
+   "u": "https://www.ilan.gov.tr/ilan/2304230/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-sakarya-universitesi-rektorlugu-",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "ÖZBURUN BELEDİYE BAŞKANLIĞI — Özburun Belediye Başkanlığı Sürekli İşçi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304217/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ozburun-belediye-baskanligi-surekli-isci-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ — Mersin Üniversitesi Rektörlüğü Sözleşmeli Bilişim Personeli Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304216/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mersin-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ — Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304213/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "İSTANBUL BEYKENT ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Beykent Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ — Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü Öğretim Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "İSTANBUL BEYKENT ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Beykent Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304209/kamu-akademik-personel-akademik-personel-alimlari-istanbul%C2%A0beykent%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ REKTÖRLÜĞÜ — İptal İlanı (Karamanoğlu Mehmetbey Üniversitesi Rektörlüğü)",
+   "u": "https://www.ilan.gov.tr/ilan/2304206/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-karamanoglu-mehmetbey-universitesi-rektorlugu-",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ — Düzeltme İlanı (Düzce Üniversitesi Rektörlüğünden)",
+   "u": "https://www.ilan.gov.tr/ilan/2304204/kamu-akademik-personel-akademik-personel-alimlari-duzeltme-ilani-duzce%C2%A0universitesi%C2%A0rektorlugunden-",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304203/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ — Düzeltme İlanı (Düzce Üniversitesi Rektörlüğünden)",
+   "u": "https://www.ilan.gov.tr/ilan/2304202/kamu-akademik-personel-akademik-personel-alimlari-duzeltme-ilani-duzce%C2%A0universitesi%C2%A0rektorlugunden-",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "BOĞAZİÇİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Boğaziçi Üniversitesi Rektörlüğünden Araştırma Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304201/kamu-akademik-personel-akademik-personel-alimlari-bogazici%C2%A0universitesi%C2%A0rektorlugunden-arastirma-gorevlisi-alim-ilani",
+   "d": "2026-11-26"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "BOĞAZİÇİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Boğaziçi Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2304191/kamu-akademik-personel-akademik-personel-alimlari-bogazici%C2%A0universitesi%C2%A0rektorlugunden-ogretim-gorevlisi-alim-ilani",
+   "d": "2026-11-26"
   },
   {
    "s": "İlan.gov.tr (Kamu)",
