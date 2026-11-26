@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:49:39.112134Z",
+ "updated": "2026-11-26T21:47:11.261496Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -25,9 +25,9 @@
   {
    "name": "Resmî Gazete",
    "url": "https://www.resmigazete.gov.tr/",
-   "ok": true,
-   "count": 1,
-   "error": ""
+   "ok": false,
+   "count": 0,
+   "error": "bugün uygun başlık yok"
   },
   {
    "name": "İlan.gov.tr (Kamu)",
@@ -35,15 +35,15 @@
    "ok": true,
    "count": 49,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,7,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 78,
+   "count": 72,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,7,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -89,12 +89,6 @@
    "t": "18 EKİ Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alımı İlanı",
    "u": "https://www.iskur.gov.tr/duyurular/turkiye-is-kurumu-genel-mudurlugu-sozlesmeli-bilisim-personeli-alimi-ilani-1/",
    "d": "2026-11-20"
-  },
-  {
-   "s": "Resmî Gazete",
-   "t": "Mustafa Kemal Üniversitesi Yabancı Diller Eğitim-Öğretimi Araştırma ve Uygulama Merkezi (YADİM) Yönetmeliğinin Yürürlükten Kaldırılmasına Dair Yönetmelik",
-   "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126-3.htm",
-   "d": "2026-11-25"
   },
   {
    "s": "İlan.gov.tr (Kamu)",
@@ -682,42 +676,6 @@
    "s": "İlan.gov.tr (Akademik)",
    "t": "BİRUNİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Biruni Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
    "u": "https://www.ilan.gov.tr/ilan/2289986/kamu-akademik-personel-akademik-personel-alimlari-biruni%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ — İzmir Katip Çelebi Üniversitesi (Düzeltme ve İptal İlanı)",
-   "u": "https://www.ilan.gov.tr/ilan/2288469/kamu-akademik-personel-akademik-personel-alimlari-izmir-katip-celebi-universitesi-duzeltme-ve-iptal-ilani-",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "DOĞUŞ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Doğuş Üniversitesi Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2288414/kamu-akademik-personel-akademik-personel-alimlari-dogus-universitesi-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "DOĞUŞ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Doğuş Üniversitesi Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2288408/kamu-akademik-personel-akademik-personel-alimlari-dogus-universitesi-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "PAMUKKALE ÜNİVERSİTESİ REKTÖRLÜĞÜ — Pamukkale Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2288358/kamu-akademik-personel-akademik-personel-alimlari-pamukkale-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Acıbadem Mehmet Ali Aydınlar Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2288354/kamu-akademik-personel-akademik-personel-alimlari-acibadem-mehmet-ali-aydinlar-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
-   "d": "2026-11-20"
-  },
-  {
-   "s": "İlan.gov.tr (Akademik)",
-   "t": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ REKTÖRLÜĞÜ — Acıbadem Mehmet Ali Aydınlar Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
-   "u": "https://www.ilan.gov.tr/ilan/2288344/kamu-akademik-personel-akademik-personel-alimlari-acibadem-mehmet-ali-aydinlar-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "d": "2026-11-20"
   },
   {
