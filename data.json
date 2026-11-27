@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:54:32.590092Z",
+ "updated": "2026-11-27T07:04:43.375696Z",
  "sources": [
   {
    "name": "Belediye / Yerel Yönetim",
@@ -33,17 +33,17 @@
    "name": "İlan.gov.tr (Kamu)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 49,
+   "count": 52,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,9,0,0"
   },
   {
    "name": "İlan.gov.tr (Akademik)",
    "url": "https://www.ilan.gov.tr/ilan/kategori/8/kamu-akademik-personel",
    "ok": true,
-   "count": 72,
+   "count": 77,
    "error": "",
-   "pages": "12,0,12,12,12,12,12,12,12,12,12,1,0,0"
+   "pages": "12,0,12,12,12,12,12,12,12,12,12,9,0,0"
   },
   {
    "name": "Kariyer Kapısı",
@@ -94,6 +94,54 @@
    "s": "Resmî Gazete",
    "t": "Cumhurbaşkanlığı Tarafından Yapılan Atamalar Hakkında Kararlar (Karar: 2026/400, 401, 402, 403, 404, 405, 406, 407, 408)",
    "u": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127-20.pdf",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "UŞAK ÜNİVERSİTESİ REKTÖRLÜĞÜ — Uşak Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305888/kamu-akademik-personel-akademik-personel-alimlari-usak%C2%A0universitesi%C2%A0rektorlugunden-ogretim-elemani-alim-ilani",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "UŞAK ÜNİVERSİTESİ REKTÖRLÜĞÜ — Uşak Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305887/kamu-akademik-personel-akademik-personel-alimlari-usak%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "TÜRKİYE ULUSLARARASI İSLAM, BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ — Türkiye Uluslararası İslam, Bilim ve Teknoloji Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305880/kamu-akademik-personel-akademik-personel-alimlari-turkiye%C2%A0uluslararasi%C2%A0islam-%C2%A0bilim%C2%A0ve%C2%A0teknoloji%C2%A0universitesi%C2%A0rektorlugunden-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "İSTANBUL MEDİPOL ÜNİVERSİTESİ REKTÖRLÜĞÜ — İstanbul Medipol Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305879/kamu-akademik-personel-akademik-personel-alimlari-istanbul-medipol-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ — Selçuk Üniversitesi Rektörlüğü Sözleşmeli Bilişim Personeli Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305859/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-selcuk-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "BOZKÖY BELEDİYE BŞK. — İptal İlanı (Bozköy Belediye Başkanlığı)",
+   "u": "https://www.ilan.gov.tr/ilan/2305858/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-bozkoy-belediye-baskanligi-",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Kamu)",
+   "t": "T.C DIŞİŞLERİ BAKANLIĞI AVRUPA BİRLİĞİ BAŞKANLIĞI — Dışişleri Bakanlığı Avrupa Birliği Başkanlığı Sözleşmeli Destek Personeli Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305857/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-disisleri-bakanligi-avrupa-birligi-baskanligi-sozlesmeli-destek-personeli-alim-ilani",
+   "d": "2026-11-27"
+  },
+  {
+   "s": "İlan.gov.tr (Akademik)",
+   "t": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ REKTÖRLÜĞÜ — Gaziantep İslam Bilim ve Teknoloji Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "u": "https://www.ilan.gov.tr/ilan/2305856/kamu-akademik-personel-akademik-personel-alimlari-gaziantep-islam-bilim-ve-teknoloji-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "d": "2026-11-27"
   },
   {
